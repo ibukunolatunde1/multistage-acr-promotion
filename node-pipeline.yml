@@ -2,7 +2,7 @@ name: $(Build.SourceBranchName)-$(Date:yyyyMMdd)-$(Rev:r)
 trigger:
   branches:
     include:
-    - develop
+    - master
 
 variables:
 - template: templates/vars/vars-global.yml

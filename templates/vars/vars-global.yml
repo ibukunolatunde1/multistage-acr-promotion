@@ -1,0 +1,7 @@
+variables:
+  service: ${{ parameters.serviceName }}
+  vmImage: ubuntu-latest
+  # repository: $(service)
+  # chartPath: 'de-helm-charts/$(service)'
+  # servicePath: 'atomic-services/$(service)'
+  image_tag: test_$(Build.BuildNumber)
